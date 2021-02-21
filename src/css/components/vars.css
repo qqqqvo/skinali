@@ -1,0 +1,7 @@
+/* grid */
+@custom-media --extra-small (width <575px);
+@custom-media --small (width >=576px);
+@custom-media --medium (width >=768px);
+@custom-media --large (width >=992px);
+@custom-media --extra-large (width >=1200px);
+@custom-media --extra-extra-large (width >=1400px);

@@ -1,0 +1,10 @@
+<% var data = {
+    srcCss: htmlWebpackPlugin.files.chunks.main.css,
+    srcJs: htmlWebpackPlugin.files.chunks.main.entry,
+    title: 'Главная страница'
+}; %>
+<%= _.template(require('./../templates/header.html'))(data) %>
+
+<main></main>
+
+<%= _.template(require('./../templates/footer.html'))(data) %>
