@@ -1,3 +1,6 @@
+:root{
+    --main-font: "Proxima Nova Light", sans-serif;
+}
 /* grid */
 @custom-media --extra-small (width <575px);
 @custom-media --small (width >=576px);
