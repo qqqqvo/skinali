@@ -1,0 +1,16 @@
+.promo {
+    background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 100%);
+    text-align: center;
+    padding: 120px 0;
+}
+
+.promo__title {
+    margin-bottom: 28px;
+}
+
+.promo__text {
+    font-size: 20px;
+    color: var(--col-1);
+    width: 550px;
+    margin: 0 auto 38px;
+}

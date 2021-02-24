@@ -5,6 +5,8 @@
 }; %>
 <%= _.template(require('./../templates/header.html'))(data) %>
 
-<main></main>
+<main>
+    <%= _.template(require('./../templates/promo.html'))(data) %>  
+</main>
 
 <%= _.template(require('./../templates/footer.html'))(data) %>

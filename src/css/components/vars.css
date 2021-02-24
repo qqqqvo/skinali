@@ -1,5 +1,8 @@
 :root{
+    --col-1: #ffffff;   
+    --col-2: #000000;
     --main-font: "Proxima Nova Light", sans-serif;
+    --bold-font: "Proxima Nova Semibold", sans-serif;
 }
 /* grid */
 @custom-media --extra-small (width <575px);

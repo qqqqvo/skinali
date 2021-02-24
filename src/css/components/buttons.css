@@ -1,0 +1,7 @@
+.main-button {
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 16px 50px;
+    background-color: var(--col-1);
+}
+
