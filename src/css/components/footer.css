@@ -1,3 +1,41 @@
 .footer {
   flex: 0 0 auto;
+  text-align: center;
+  padding: 140px 0 90px;
 }
+
+.footer__nav {
+   font-size: 14px;
+  color: #464646;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.footer__nav:last-child {
+  margin-bottom: 0;
+}
+
+.footer__nav-list {
+  text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.footer__nav-item {
+  text-align: center;
+  list-style: none;
+}
+
+.footer__nav-link {
+  color: #464646;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer__nav-link:hover {
+  color: #FE4FA7;
+
+}
+

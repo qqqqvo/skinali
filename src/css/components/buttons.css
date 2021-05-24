@@ -5,3 +5,12 @@
     background-color: var(--col-1);
 }
 
+.main-button_gradient {
+    background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
+    color: var(--col-1);
+}
+
+.main-button_light {
+    border: 1px solid var(--col-2);
+    
+}
