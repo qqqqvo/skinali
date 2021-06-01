@@ -1,0 +1,23 @@
+.form__input {
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 16px 20px;
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    max-width: 375px;
+}
+
+.form__input::placeholder {
+    color:inherit;
+}
+
+.form__button {
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    gap: 40px;
+}
