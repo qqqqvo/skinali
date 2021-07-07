@@ -19,5 +19,13 @@
 
 .form {
     display: flex;
-    gap: 40px;
+    gap: 10px;
+
+    @media (--media-md) {
+        gap: 20px;
+    }
+
+    @media (--media-lg) {
+        gap: 40px;
+    }
 }

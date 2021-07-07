@@ -1,6 +1,19 @@
 .info-item {
-    width: 367px;
+    max-width: 367px;
     text-align: center;
+    margin: 0 auto;
+
+    @media (--media-lg) {
+        margin: 0;
+    }
+}
+
+.info-item + .info-item {
+    margin-top: 30px;
+
+    @media (--media-lg) {
+        margin-top: 0;
+    }
 }
 
 .info-item__icon {

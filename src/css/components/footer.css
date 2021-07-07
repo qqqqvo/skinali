@@ -1,7 +1,11 @@
 .footer {
   flex: 0 0 auto;
   text-align: center;
-  padding: 140px 0 90px;
+  padding: 40px 0 40px;
+
+  @media (--media-lg) {
+    padding: 140px 0 90px;
+  }
 }
 
 .footer__nav {
@@ -23,6 +27,11 @@
   justify-content: center;
   font-weight: 700;
   margin: 0 auto;
+  flex-direction: column;
+
+  @media (--media-lg) {
+    flex-direction: row;
+  }
 }
 
 .footer__nav-item {

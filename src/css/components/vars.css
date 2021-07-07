@@ -5,9 +5,15 @@
     --bold-font: "Proxima Nova Semibold", sans-serif;
 }
 /* grid */
-@custom-media --extra-small (width <575px);
-@custom-media --small (width >=576px);
-@custom-media --medium (width >=768px);
-@custom-media --large (width >=992px);
-@custom-media --extra-large (width >=1200px);
-@custom-media --extra-extra-large (width >=1400px);
+@custom-media --media-xs-max (width <360px);
+@custom-media --media-xs (width >361px);
+@custom-media --media-sm-max (width <624px);
+@custom-media --media-sm (width >625px);
+@custom-media --media-md-max (width <767px);
+@custom-media --media-md (width >768px);
+@custom-media --media-lg-max (width <991px);
+@custom-media --media-lg (width >992px);
+@custom-media --media-xl-max (width <1139px);
+@custom-media --media-xl (width >1140px);
+@custom-media --media-xxl-max (width <1199px);
+@custom-media --media-xxl (width >1200px);

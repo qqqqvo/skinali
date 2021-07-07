@@ -6,10 +6,11 @@
 <%= _.template(require('./../templates/header.html'))(data) %>
 
 <main>
-    <%= _.template(require('./../templates/banner.html'))(data) %> 
-    <%= _.template(require('./../templates/promo.html'))(data) %>  
-    <%= _.template(require('./../templates/description.html'))(data) %>  
-    <%= _.template(require('./../templates/plans.html'))(data) %>  
+    <%= _.template(require('./../templates/banner.html'))(data) %>
+    <%= _.template(require('./../templates/promo.html'))(data) %>
+    <%= _.template(require('./../templates/info.html'))(data) %>
+    <%= _.template(require('./../templates/description.html'))(data) %>
+    <%= _.template(require('./../templates/plans.html'))(data) %>
 </main>
 
 <%= _.template(require('./../templates/footer.html'))(data) %>

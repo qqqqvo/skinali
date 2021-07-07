@@ -1,16 +1,31 @@
 .promo {
     background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 100%);
     text-align: center;
-    padding: 120px 0;
+    padding: 50px 0;
+
+    @media (--media-lg) {
+        padding: 120px 0;
+    }
 }
 
 .promo__title {
-    margin-bottom: 28px;
+    font-size: 25px;
+    
+    @media (--media-lg) {
+        margin-bottom: 28px;
+    }
 }
 
 .promo__text {
-    font-size: 20px;
+    font-size: 15px;
     color: var(--col-1);
-    width: 550px;
-    margin: 0 auto 38px;
+    margin: 15px auto 20px;
+
+    @media (--media-lg) {
+        font-size: 20px;
+        color: var(--col-1);
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto 38px;
+    }
 }
